@@ -1,0 +1,84 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor": "#F0AD4E",
+				"navigationBarTitleText": "Album"
+			}
+		},
+		{
+			"path": "pages/index/checkTheImage",
+			"style": {
+				"navigationBarTitleText": "Watch"
+			}
+		},
+		{
+			"path": "pages/index/army",
+			"style": {
+				"navigationBarBackgroundColor": "#4CD964",
+				"navigationBarTitleText": "Army"
+			}
+		},
+		{
+			"path": "pages/index/horror",
+			"style": {
+				"navigationBarBackgroundColor": "#808080",
+				"navigationBarTitleText": "Horror"
+			}
+		},
+		{
+			"path": "pages/index/collection",
+			"style": {
+				"navigationBarTitleText": "收藏夹",
+				"navigationBarBackgroundColor": "#F0AD4E"
+			}
+		},
+	    {
+            "path" : "pages/index/sign",
+            "style" : {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "#DD524D"
+			}
+        },
+		{
+			"path":"pages/index/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#DD524D"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/pupil.ico",
+				"selectedIconPath": "static/pupil.ico",
+				"text": "小姐姐"
+			},
+			{
+				"pagePath": "pages/index/army",
+				"iconPath": "static/army.ico",
+				"selectedIconPath": "static/army.ico",
+				"text": "军队"
+			},
+			{
+				"pagePath": "pages/index/horror",
+				"iconPath": "static/horror.ico",
+				"selectedIconPath": "static/horror.ico",
+				"text": "恐怖"
+			}
+		]
+	}
+
+}
